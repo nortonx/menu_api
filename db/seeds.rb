@@ -10,3 +10,5 @@
 Group.create!({
   name: "Grupo principal"
 })
+
+puts "#{Group.count} group(s) created."
